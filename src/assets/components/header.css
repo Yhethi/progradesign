@@ -1,0 +1,162 @@
+.header {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0% 0% 0% 10%;
+  gap: 210px;
+  z-index: 1;
+}
+
+.logo p {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu ul {
+  display: flex;
+  gap: 17%;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: -2.5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  margin-left: 70px;
+}
+#login {
+  font-size: 20px;
+}
+
+#signUp {
+  min-width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+.sign P {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 1200px,
+992px,
+768px,
+576px,
+375px */
+
+@media (max-width: 1200px) {
+  
+  .header {
+    width: 100vw;
+    gap: 0px;
+    z-index: 10;
+  }
+
+  .logo p {
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+  .menu {
+    display: flex;
+    justify-content: center;
+    background: white;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 200px;
+    height: 90vh;
+    transform: translateX(200px);
+    transition-duration: 0.5s;
+    scale: 0;
+  }
+  .menu ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    right: 0;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+  }
+  .menu ul li {
+    list-style: none;
+    border: 1px solid rgb(221, 221, 221);
+    height: 30px;
+    border-radius: 10px;
+    background: #f1a501;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.301));
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  .menu ul li:hover {
+    transform: scale(1.05);
+  }
+  .menu ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: -2.5px;
+  }
+  .menuMobile {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 75px;
+    border: 1px solid rgb(255, 223, 79);
+    display: grid;
+    place-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    margin-left: 70px;
+    display: none;
+  }
+  #login {
+    font-size: 20px;
+  }
+
+  #signUp {
+    min-width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 7px;
+  }
+  .sign P {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

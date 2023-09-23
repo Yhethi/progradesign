@@ -1,0 +1,86 @@
+.fondos {
+  width: 100vw;
+  max-width: 1400px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+}
+.leftUp {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+#leftUp {
+  position: relative;
+}
+
+.girl {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+#girl {
+  position: absolute;
+  top: 100px;
+  right: 106px;
+}
+@media (max-width: 1200px) {
+  .fondos {
+    width: 100vw;
+    max-width: 1400px;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+  }
+  .leftUp {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  #leftUp {
+    position: relative;
+  }
+
+  .girl {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+  }
+  #girl {
+    width: 20%;
+    position: absolute;
+    top: 300px;
+    right: 56px;
+  }
+}
+@media (max-width: 576px) {
+  .fondos {
+    width: 100vw;
+    max-width: 1400px;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+  }
+  .leftUp {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  #leftUp {
+    position: relative;
+  }
+
+  .girl {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+  }
+  #girl {
+    width: 20%;
+    position: absolute;
+    top: 420px;
+    right: 50px;
+    left: 14%;
+    margin-inline: auto;
+  }
+}

@@ -1,0 +1,81 @@
+.global__carrousel {
+  width: 100%;
+  max-width: 1400px;
+  height: 250px;
+  padding-left: 10%;
+  padding-top: 70px;
+  padding-right: 10%;
+  position: relative;
+}
+
+.carrousel {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.carrousel__card {
+  width: 200px;
+  height: 100px;
+  display: grid;
+  place-content: center;
+  background: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.carrousel__card:hover {
+  scale: 1.01;
+}
+@keyframes moveCards {
+  0% {
+    transform: translateX(0px);
+  }
+}
+
+.carrousel__card img {
+  width: 200px;
+}
+
+@media (max-width: 1200px) {
+  .global__carrousel {
+    width: 100vw;
+    height: auto;
+    padding-left: 0%;
+    padding-top: 70px;
+    padding-right: 0%;
+    position: relative;
+  }
+
+  .carrousel {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    overflow: hidden;
+  }
+
+  .carrousel__card {
+    width: 200px;
+    height: 100px;
+    display: grid;
+    place-content: center;
+    background: white;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .carrousel__card:hover {
+    scale: 1.01;
+  }
+  @keyframes moveCards {
+    0% {
+      transform: translateX(0px);
+    }
+  }
+
+  .carrousel__card img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+}

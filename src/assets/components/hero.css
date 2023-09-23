@@ -1,0 +1,502 @@
+.hero__global {
+  width: 100vw;
+  height: 700px;
+  /* background: red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10%;
+}
+.hero__global .left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14%;
+  align-items: start;
+  gap: 6%;
+  position: relative;
+}
+.hero__global .left h3 {
+  color: #df6951;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.hero__global .left h1 {
+  font-size: 5.2rem;
+  width: 85%;
+  height: 40%;
+  line-height: 90px;
+  margin-top: -25px;
+  margin-bottom: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #181e4b;
+}
+#redLine {
+  position: absolute;
+  width: 300px;
+  right: 190px;
+  top: 112px;
+}
+.hero__global .left p {
+  width: 80%;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  line-height: 28px;
+  color: #181e4b;
+}
+.hero__global .left .buttons {
+  width: 100%;
+  display: flex;
+  gap: 45px;
+}
+
+#findB {
+  background: #f1a501;
+  border: none;
+  border-radius: 10px;
+  width: 165px;
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  filter: drop-shadow(0px 10px 10px rgba(255, 166, 0, 0.603));
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#findB:hover {
+  transform: scale(1.05);
+}
+#playD {
+  width: 165px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  filter: opacity(0.5);
+  transition: 0.5s;
+  cursor: pointer;
+}
+#playD:hover {
+  filter: opacity(1);
+}
+.redCircle {
+  border-radius: 100%;
+  width: 65px;
+  height: 55px;
+  background: red;
+  display: grid;
+  place-content: center;
+  object-fit: contain;
+  color: white;
+  font-size: 22px;
+}
+#playD p {
+  font-size: 1.1rem;
+}
+@media (max-width: 1350px) {
+  .hero__global .left h1 {
+    font-size: 4.8rem;
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .hero__global {
+    width: 100vw;
+    height: 700px;
+    /* background: red; */
+    display: flex;
+    grid-template-columns: 1fr;
+    padding-inline: 10%;
+    padding-left: 5% !important;
+  }
+  .hero__global .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    align-items: start;
+    gap: 6%;
+    position: relative;
+  }
+  .hero__global .left h3 {
+    color: #df6951;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .hero__global .left h1 {
+    font-size: 5.2rem;
+    width: 90%;
+    height: 40%;
+    line-height: 90px;
+    margin-top: -25px;
+    margin-bottom: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #181e4b;
+  }
+  #redLine {
+    position: absolute;
+    width: 300px;
+    left: 240px;
+    top: 112px;
+  }
+  .hero__global .left p {
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: #181e4b;
+  }
+  .hero__global .left .buttons {
+    width: 100%;
+    display: flex;
+    gap: 45px;
+  }
+
+  #findB {
+    background: #f1a501;
+    border: none;
+    border-radius: 10px;
+    width: 165px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    filter: drop-shadow(0px 10px 10px rgba(255, 166, 0, 0.603));
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  #findB:hover {
+    transform: scale(1.05);
+  }
+  #playD {
+    width: 165px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    filter: opacity(0.5);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #playD:hover {
+    filter: opacity(1);
+  }
+  .redCircle {
+    border-radius: 100%;
+    width: 65px;
+    height: 55px;
+    background: red;
+    display: grid;
+    place-content: center;
+    object-fit: contain;
+    color: white;
+    font-size: 22px;
+  }
+  #playD p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero__global {
+    width: 100vw;
+    height: 700px;
+    /* background: red; */
+    display: flex;
+    grid-template-columns: 1fr;
+    padding-inline: 10%;
+  }
+  .hero__global .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    align-items: start;
+    gap: 6%;
+    position: relative;
+  }
+  .hero__global .left h3 {
+    color: #df6951;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .hero__global .left h1 {
+    font-size: 5.2rem;
+    width: 90%;
+    height: 40%;
+    line-height: 90px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #181e4b;
+  }
+  #redLine {
+    position: absolute;
+    width: 300px;
+    left: 0px;
+    top: 210px;
+  }
+  .hero__global .left p {
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: #181e4b;
+  }
+  .hero__global .left .buttons {
+    width: 100%;
+    display: flex;
+    gap: 45px;
+  }
+
+  #findB {
+    background: #f1a501;
+    border: none;
+    border-radius: 10px;
+    width: 165px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    filter: drop-shadow(0px 10px 10px rgba(255, 166, 0, 0.603));
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  #findB:hover {
+    transform: scale(1.05);
+  }
+  #playD {
+    width: 165px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    filter: opacity(0.5);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #playD:hover {
+    filter: opacity(1);
+  }
+  .redCircle {
+    border-radius: 100%;
+    width: 65px;
+    height: 55px;
+    background: red;
+    display: grid;
+    place-content: center;
+    object-fit: contain;
+    color: white;
+    font-size: 22px;
+  }
+  #playD p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__global {
+    width: 100vw;
+    height: 700px;
+    /* background: red; */
+    display: flex;
+    grid-template-columns: 1fr;
+    padding-inline: 10%;
+  }
+  .hero__global .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    align-items: start;
+    gap: 6%;
+    position: relative;
+  }
+  .hero__global .left h3 {
+    color: #df6951;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .hero__global .left h1 {
+    font-size: 10vw;
+    width: 90%;
+    height: 40%;
+    line-height: 75px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #181e4b;
+    z-index: 3;
+    text-align: center;
+  }
+  #redLine {
+    position: absolute;
+    width: 300px;
+    left: 0px;
+    top: 210px;
+    z-index: -1;
+  }
+  .hero__global .left p {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: #181e4b;
+    text-align: center;
+  }
+  .hero__global .left .buttons {
+    width: 100%;
+    display: flex;
+    gap: 45px;
+  }
+
+  #findB {
+    background: #f1a501;
+    border: none;
+    border-radius: 10px;
+    width: 165px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    filter: drop-shadow(0px 10px 10px rgba(255, 166, 0, 0.603));
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  #findB:hover {
+    transform: scale(1.05);
+  }
+  #playD {
+    width: 165px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    filter: opacity(0.5);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #playD:hover {
+    filter: opacity(1);
+  }
+  .redCircle {
+    border-radius: 100%;
+    width: 65px;
+    height: 55px;
+    background: red;
+    display: grid;
+    place-content: center;
+    object-fit: contain;
+    color: white;
+    font-size: 22px;
+  }
+  #playD p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__global {
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    grid-template-columns: 1fr;
+    padding-inline: 4%;
+  }
+  .hero__global .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    align-items: start;
+    gap: 6%;
+    position: relative;
+  }
+  .hero__global .left h3 {
+    color: #df6951;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .hero__global .left h1 {
+    font-size: 10vw;
+    width: 100%;
+    height: 40%;
+    line-height: 75px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #181e4b;
+  }
+  #redLine {
+    position: absolute;
+    width: 300px;
+    left: 0px;
+    top: 210px;
+  }
+  .hero__global .left p {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 28px;
+    color: #181e4b;
+  }
+  .hero__global .left .buttons {
+    width: 100%;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+  }
+
+  #findB {
+    background: #f1a501;
+    border: none;
+    border-radius: 10px;
+    width: 165px;
+    height: 60px;
+    color: white;
+    font-size: 18px;
+    filter: drop-shadow(0px 10px 10px rgba(255, 166, 0, 0.603));
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  #findB:hover {
+    transform: scale(1.05);
+  }
+  #playD {
+    width: 165px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    filter: opacity(0.5);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #playD:hover {
+    filter: opacity(1);
+  }
+  .redCircle {
+    border-radius: 100%;
+    width: 65px;
+    height: 55px;
+    background: red;
+    display: grid;
+    place-content: center;
+    object-fit: contain;
+    color: white;
+    font-size: 22px;
+  }
+  #playD p {
+    font-size: 1.1rem;
+  }
+}

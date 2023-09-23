@@ -1,0 +1,152 @@
+.global__topSelling {
+  max-width: 1400px;
+  width: 100%;
+  height: 800px;
+  padding-left: 5%;
+  padding-top: 50px;
+  padding-right: 5%;
+}
+.topSelling__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  margin-left: -40px;
+}
+.topSelling__title h1 {
+  font-size: 2.9rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.topSelling__flexCards {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.315));
+}
+.topSelling__flexCards__card {
+  background: white;
+  border-radius: 20px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.topSelling__flexCards__card:hover {
+  transform: scale(1.05);
+}
+.topSelling__flexCards__card__img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.topSelling__flexCards__card__img img {
+  width: 200%;
+}
+.topSelling__flexCards__card__nameAmount {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5%;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.topSelling__flexCards__card__nameAmount p {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topSelling__flexCards__card__days {
+  display: flex;
+  height: 40px;
+  padding-top: 20px;
+  padding-inline: 5%;
+  gap: 10px;
+}
+
+.topSelling__flexCards__card__days p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .global__topSelling {
+    width: 100vw;
+    height: auto;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  .topSelling__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .topSelling__title h1 {
+    font-size: 2.9rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  .topSelling__flexCards {
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.315));
+  }
+  .topSelling__flexCards__card {
+    background: white;
+    border-radius: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+  .topSelling__flexCards__card:hover {
+    transform: scale(1.05);
+  }
+  .topSelling__flexCards__card__img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .topSelling__flexCards__card__img img {
+    width: 200%;
+  }
+  .topSelling__flexCards__card__nameAmount {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+    height: 40px;
+    padding-top: 20px;
+  }
+
+  .topSelling__flexCards__card__nameAmount p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .topSelling__flexCards__card__days {
+    display: flex;
+    height: 40px;
+    padding-top: 20px;
+    padding-inline: 5%;
+    gap: 10px;
+  }
+
+  .topSelling__flexCards__card__days p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
